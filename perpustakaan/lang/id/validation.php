@@ -1,0 +1,56 @@
+<?php
+
+return [
+
+    'required' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'integer' => ':attribute harus berupa angka.',
+    'numeric' => ':attribute harus berupa angka.',
+    'date' => ':attribute tidak valid.',
+    'email' => ':attribute harus berupa alamat email yang valid.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'exists' => ':attribute yang dipilih tidak ditemukan.',
+    'unique' => ':attribute sudah digunakan.',
+    'alpha_dash' => ':attribute hanya boleh berisi huruf, angka, tanda hubung, dan garis bawah.',
+    'min' => [
+        'string' => ':attribute minimal :min karakter.',
+        'numeric' => ':attribute minimal :min.',
+        'array' => ':attribute minimal :min item.',
+    ],
+    'max' => [
+        'string' => ':attribute maksimal :max karakter.',
+        'numeric' => ':attribute maksimal :max.',
+        'array' => ':attribute maksimal :max item.',
+    ],
+
+    'attributes' => [
+        'username' => 'username',
+        'password' => 'kata sandi',
+        'name' => 'nama',
+        'email' => 'email',
+        'kode' => 'kode',
+        'isbn' => 'ISBN',
+        'judul' => 'judul buku',
+        'penulis' => 'penulis',
+        'penerbit' => 'penerbit',
+        'tahun' => 'tahun terbit',
+        'kategori' => 'kategori',
+        'stok' => 'jumlah stok',
+        'lokasi' => 'lokasi rak',
+        'nama' => 'nama lengkap',
+        'nik' => 'NIK',
+        'gender' => 'jenis kelamin',
+        'telepon' => 'nomor telepon',
+        'alamat' => 'alamat',
+        'tanggal_daftar' => 'tanggal daftar',
+        'status' => 'status',
+        'role' => 'hak akses',
+        'tanggal_kembali' => 'tanggal pengembalian',
+        'anggota_id' => 'anggota',
+        'buku_id' => 'buku',
+        'batas_pinjam' => 'batas peminjaman',
+        'masa_pinjam' => 'masa peminjaman',
+        'tarif_denda' => 'tarif denda',
+    ],
+
+];
